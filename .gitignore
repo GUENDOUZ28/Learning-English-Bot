@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local sensitive configuration
+.env
+
+# Data & database
+data/vocab_bot.db
+data/vocab_bot.db-journal
+data/audio/*.mp3
+!data/audio/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
